@@ -1,0 +1,5 @@
+Hey Peter, Python is awesome.
+I am learning these topics:
+Machine Learning
+Artificial Intelligence
+Robotics

@@ -1,0 +1,20 @@
+class Person:
+    color = 'Brown'
+
+    def __init__(self, name, age, location):
+        self.name = name
+        self.age = age
+        self.location = location
+
+    def running(self):
+        return f'{self.name} is running very fast.'
+
+    @classmethod
+    def common(cls):
+        return f'All persons are {cls.color} in Color.'
+
+    @staticmethod
+    def walk(speed='5 Km/Hour'):
+        return f'The person walks at {speed}.';
+
+
